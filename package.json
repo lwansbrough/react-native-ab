@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/lwansbrough/react-native-ab.git"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A component for rendering A/B tests in React Native",
   "main": "index.js",
   "author": "Lochlan Wansbrough <lochie@live.com> (http://lwansbrough.com)",
