@@ -12,7 +12,7 @@ var Experiment = React.createClass({
     children: ((props, propName) => {
       var children = props[propName];
       if (!Array.isArray(children) || children.length < 2) {
-        return new Error('You must have more than 1 Variant.');
+        return new Error('You must have at least 2 Variants.');
       }
       for (child of children) {
         if (!child.type.prototype.isVariant) {
