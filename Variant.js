@@ -11,6 +11,10 @@ var Variant = React.createClass({
     return this.props.children;
   },
 
+  getName() {
+    return this.props.name;
+  },
+
   isVariant: true
 });
 

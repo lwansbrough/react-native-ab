@@ -72,6 +72,10 @@ var Experiment = React.createClass({
     return this.state.variant;
   },
 
+  getName() {
+    return this.props.name;
+  },
+
   getVariant(name) {
     return this.variants.find((v) => v.props.name == name);
   },
