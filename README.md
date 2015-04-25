@@ -6,6 +6,12 @@ A component for rendering A/B tests in React Native.
 
 1. `npm install react-native-ab@latest --save`
 
+## Obtaining your metrics
+
+Once you've got your A/B tests set up, you'll need a place to send the data. Check out these libraries for A/B testing:
+
+- [Google Analytics (react-native-google-analytics)](http://github.com/lwansbrough/react-native-google-analytics)
+
 ## Usage
 
 All you need is to `require` the `react-native-ab` module and then use the provided tags (`<Experiment>`, and `<Variant>`).
